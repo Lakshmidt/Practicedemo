@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Reports starts]]>
+    </line>
+    <line>
+      <![CDATA[Reports test started]]>
+    </line>
+    <line>
+      <![CDATA[https://www.google.com/?gws_rd=ssl]]>
+    </line>
+    <line>
+      <![CDATA[Google]]>
+    </line>
+    <line>
+      <![CDATA[Reports test pass]]>
+    </line>
+    <line>
+      <![CDATA[Reports test finish]]>
+    </line>
+    <line>
+      <![CDATA[Reports starts]]>
+    </line>
+    <line>
+      <![CDATA[Reports test started]]>
+    </line>
+    <line>
+      <![CDATA[https://www.google.com/?gws_rd=ssl]]>
+    </line>
+    <line>
+      <![CDATA[Google]]>
+    </line>
+    <line>
+      <![CDATA[Reports test pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38693" started-at="2019-12-05T09:30:01Z" finished-at="2019-12-05T09:30:40Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="10581" started-at="2019-12-05T09:30:01Z" finished-at="2019-12-05T09:30:12Z">
+      <class name="experiment.ParallelExp">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:experiment.ParallelExp@4883b407]" name="init" is-config="true" duration-ms="3279" started-at="2019-12-05T09:30:01Z" finished-at="2019-12-05T09:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="lauchApp()[pri:0, instance:experiment.ParallelExp@4883b407]" name="lauchApp" duration-ms="7248" started-at="2019-12-05T09:30:04Z" finished-at="2019-12-05T09:30:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reports test started]]>
+            </line>
+            <line>
+              <![CDATA[https://www.google.com/?gws_rd=ssl]]>
+            </line>
+            <line>
+              <![CDATA[Google]]>
+            </line>
+            <line>
+              <![CDATA[Reports test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lauchApp -->
+      </class> <!-- experiment.ParallelExp -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="28075" started-at="2019-12-05T09:30:12Z" finished-at="2019-12-05T09:30:40Z">
+      <class name="experiment.ParallelExp">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:experiment.ParallelExp@6c49835d]" name="init" is-config="true" duration-ms="22751" started-at="2019-12-05T09:30:12Z" finished-at="2019-12-05T09:30:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="lauchApp()[pri:0, instance:experiment.ParallelExp@6c49835d]" name="lauchApp" duration-ms="5315" started-at="2019-12-05T09:30:34Z" finished-at="2019-12-05T09:30:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reports test started]]>
+            </line>
+            <line>
+              <![CDATA[https://www.google.com/?gws_rd=ssl]]>
+            </line>
+            <line>
+              <![CDATA[Google]]>
+            </line>
+            <line>
+              <![CDATA[Reports test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lauchApp -->
+      </class> <!-- experiment.ParallelExp -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
